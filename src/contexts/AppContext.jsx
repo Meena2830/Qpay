@@ -7,8 +7,7 @@ export const AppProvider = ({ children }) => {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState(null);
   const [page, setPage] = useState(0);
-  const [totalPages, setTotalPages] = useState(1); // Assume from API if available
-
+  const [totalPages, setTotalPages] = useState(1); 
   return (
     <AppContext.Provider value={{ transactions, setTransactions, loading, setLoading, error, setError, page, setPage, totalPages, setTotalPages }}>
       {children}

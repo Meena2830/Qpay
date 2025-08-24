@@ -45,32 +45,28 @@ const ManageQR = () => {
   // Sample data for active QR codes
   const activeQRData = [
     {
-      qrCode:
-        "https://api.qrserver.com/v1/create-qr-code/?data=QR1&size=50x50",
+      qrCode: "https://api.qrserver.com/v1/create-qr-code/?data=QR1&size=50x50",
       code: "Q201946579",
       name: "All Marketing Sales",
       msCode: "MS90830402347802740174",
       terminal: "Terminal 1",
     },
     {
-      qrCode:
-        "https://api.qrserver.com/v1/create-qr-code/?data=QR2&size=50x50",
+      qrCode: "https://api.qrserver.com/v1/create-qr-code/?data=QR2&size=50x50",
       code: "Q201946580",
       name: "All Marketing Sales",
       msCode: "MS90830402347802740175",
       terminal: "Terminal 2",
     },
     {
-      qrCode:
-        "https://api.qrserver.com/v1/create-qr-code/?data=QR2&size=50x50",
+      qrCode: "https://api.qrserver.com/v1/create-qr-code/?data=QR2&size=50x50",
       code: "Q201946580",
       name: "All Marketing Sales",
       msCode: "MS90830402347802740175",
       terminal: "Terminal 3",
     },
     {
-      qrCode:
-        "https://api.qrserver.com/v1/create-qr-code/?data=QR2&size=50x50",
+      qrCode: "https://api.qrserver.com/v1/create-qr-code/?data=QR2&size=50x50",
       code: "Q201946580",
       name: "All Marketing Sales",
       msCode: "MS90830402347802740175",
@@ -97,20 +93,20 @@ const ManageQR = () => {
               UPI ID: 9876543210@qpay
             </p>
             <button className="ml-2 p-1 rounded">
-      <svg
-        className="w-5 h-5 text-[#61CE70]"
-        fill="none"
-        stroke="currentColor"
-        viewBox="0 0 24 24"
-      >
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          strokeWidth="2"
-          d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
-        />
-      </svg>
-    </button>
+              <svg
+                className="w-5 h-5 text-[#61CE70]"
+                fill="none"
+                stroke="currentColor"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  strokeWidth="2"
+                  d="M8 16H6a2 2 0 01-2-2V6a2 2 0 012-2h8a2 2 0 012 2v2m-6 12h8a2 2 0 002-2v-8a2 2 0 00-2-2h-8a2 2 0 00-2 2v8a2 2 0 002 2z"
+                />
+              </svg>
+            </button>
           </div>
           <p className="text-center text-sm text-gray-600 mt-1">
             Ibrahim Mohammed
